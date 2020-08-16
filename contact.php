@@ -26,6 +26,7 @@ if (isset($_GET)){
         <h1><a class="navbar-brand amar" href="index.html" style="">AMAR SYLL</a></h1>
     </div>
     <div class="collapse navbar-collapse d-flex justify-content-end mr-3" id="navbarNav">
+        <h3 class=""><a class="nav-link" href="index.html">Home</a></h3>
         <h3 class=""><a class="nav-link" href="work.html">Work</a></h3>
         <h3 class=""><a class="nav-link" href="about.html">About</a></h3>
         <h3 class="menu"><a class="nav-link" href="">Contact</a></h3>
