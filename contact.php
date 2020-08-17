@@ -42,7 +42,7 @@ if (isset($_GET)){
     <div class="row contact d-flex justify-content-center ">
         <div class="col-10">
             <div class="row d-flex justify-content-center">
-                <form action="mail.php" method="post" class="d-flex justify-content-center flex-column">
+                <form action="config/mail.php" method="post" class="d-flex justify-content-center flex-column">
                     <div class="col-12 pt-2">
                         <input type="text" class="form-control form-group input py-1"  placeholder="name"
                                name="name">
