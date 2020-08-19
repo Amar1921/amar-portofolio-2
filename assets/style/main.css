@@ -16,7 +16,13 @@ body {
     margin-top: 0;
     height: 150px;
 }
+img {
+    opacity: 0.5;
+}
 
+img:hover {
+    opacity: 1.0;
+}
 article > a {
     color: blue;
 }
