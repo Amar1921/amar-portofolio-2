@@ -16,13 +16,13 @@ body {
     margin-top: 0;
     height: 150px;
 }
-img {
-    opacity: 0.5;
-}
+/*img {*/
+/*    opacity: 0.8;*/
+/*}*/
 
-img:hover {
-    opacity: 1.0;
-}
+/*img:hover {*/
+/*    opacity: 1.0;*/
+/*}*/
 article > a {
     color: blue;
 }
@@ -169,6 +169,7 @@ ul.social > li > a i {
     -moz-box-shadow: 26px -8px 81px -6px rgba(112, 108, 112, 1);
     box-shadow: 26px -8px 81px -6px rgba(112, 108, 112, 1);
     border-radius: 15px;
+    min-width: 400px;
 }
 
 input {

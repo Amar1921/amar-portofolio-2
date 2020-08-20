@@ -40,8 +40,7 @@ if (isset($_GET)){
     <p class="text-center text-success"><?php echo $mess ;?></p>
     <p class="text-center text-danger"><?php echo $error ;?></p>
     <div class="row contact d-flex justify-content-center ">
-        <div class="col-10">
-            <div class="row d-flex justify-content-center">
+        <div class="col-10 d-flex justify-content-center">
                 <form action="config/mail.php" method="post" class="d-flex justify-content-center flex-column">
                     <div class="col-12 pt-2">
                         <input type="text" class="form-control form-group input py-1"  placeholder="name"
@@ -59,8 +58,6 @@ if (isset($_GET)){
                         <button type="submit" class="form-control btn btn-outline-dark" value="">Send message</button>
                     </div>
                 </form>
-            </div>
-
         </div>
     </div>
 </div>
