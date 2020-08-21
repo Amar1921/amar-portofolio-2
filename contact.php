@@ -35,36 +35,47 @@ if (isset($_GET)){
 <!--end Header-->
 <!--Body-->
 
-<div class="container">
-    <h1 class="text-center">Contact me</h1>
-    <p class="text-center text-success"><?php echo $mess ;?></p>
-    <p class="text-center text-danger"><?php echo $error ;?></p>
-    <div class="row contact d-flex justify-content-center ">
-        <div class="col-10 d-flex justify-content-center">
-                <form action="config/mail.php" method="post" class="d-flex justify-content-center flex-column">
-                    <div class="col-12 pt-2">
-                        <input type="text" class="form-control form-group input py-1"  placeholder="name"
-                               name="name">
-                    </div>
-                    <div class="col-12 pt-2">
-                        <input type="email" class="form-control form-group input py-1" placeholder="email"
-                               name="email">
-                    </div>
-                    <div class="col-12 pt-2">
-                        <textarea class="form-control input" rows="5" placeholder="message"
-                                  name="message"></textarea>
-                    </div>
-                    <div class="col-12 py-4">
-                        <button type="submit" class="form-control btn btn-outline-dark" value="">Send message</button>
-                    </div>
-                </form>
-        </div>
+<div class="container-contact100 mb-3">
+    <div class="wrap-contact100">
+        <form class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					Contact Me
+				</span>
+
+            <div class="wrap-input100 validate-input" data-validate="Please enter your name">
+                <input class="input100" name="name" placeholder="Full Name" type="text">
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="wrap-input100 validate-input" data-validate="Please enter your email: e@a.x">
+                <input class="input100" name="email" placeholder="E-mail" type="text">
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="wrap-input100 validate-input" data-validate="Please enter your phone">
+                <input class="input100" name="phone" placeholder="Phone" type="text">
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="wrap-input100 validate-input" data-validate="Please enter your message">
+                <textarea class="input100" name="message" placeholder="Your Message"></textarea>
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="container-contact100-form-btn mt-2">
+                <button class="contact100-form-btn">
+                            <span>
+                                <i aria-hidden="true" class="fa fa-paper-plane-o m-r-6"></i>
+                                Send
+                            </span>
+                </button>
+            </div>
+        </form>
     </div>
 </div>
 <!--end Body-->
-<hr style="width: 80% ;height: 5px">
 <!--Footer-->
-<div id="footer">
+<div id="footer" style="margin-top: 0">
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
@@ -80,12 +91,12 @@ if (isset($_GET)){
             <div class="col-lg-4">
                 <h4>My Links</h4>
                 <ul class="social">
-                    <li><a href="https://www.facebook.com/Amar.syll/" target="_blank"><i
+                    <li><a style="color: white" href="https://www.facebook.com/Amar.syll/" target="_blank"><i
                                     class="icon-facebook fa fa-facebook icon-social"></i>Facebook</a></li>
-                    <li><a href="https://github.com/Amar1921" target="_blank"><i
+                    <li><a style="color: white" href="https://github.com/Amar1921" target="_blank"><i
                                     class="icon-github fa fa-github icon-social"></i>Github</a>
                     </li>
-                    <li><a href="https://www.linkedin.com/in/amar-syll-20b595198/" target="_blank"><i
+                    <li><a style="color: white" href="https://www.linkedin.com/in/amar-syll-20b595198/" target="_blank"><i
                                     class="icon-linkedin fa fa-linkedin icon-social"></i>Linkedin</a></li>
                 </ul>
             </div><!-- /col-lg-4 -->
