@@ -1,3 +1,5 @@
-let date = new Date().getFullYear();
-console.log(date)
-document.getElementById("date").innerHTML = date;
+document.ready(function () {
+    let date = new Date().getFullYear();
+    document.getElementById("date").innerHTML = date;
+
+})

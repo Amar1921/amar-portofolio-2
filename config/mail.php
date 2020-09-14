@@ -15,7 +15,7 @@ if (!empty($_POST)) {
             $to = 'amar91syll@gmail.com';
             $subject = 'Message de contact';
             $body = "Name: $name\nEmail: $email\nmessage: $message";
-           // mail($to, $subject, $body);
+            // mail($to, $subject, $body);
             $mess = "Votre message a bien ete envoye";
             header("Location:contact.php?message=$mess");
         }
