@@ -75,7 +75,7 @@ if (isset($_GET)) {
 </div>
 <!--end Body-->
 <!--Footer-->
-<div id="footer" style="margin-top: 0">
+<div id="footer">
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
@@ -102,15 +102,11 @@ if (isset($_GET)) {
             </div><!-- /col-lg-4 -->
             <div class="col-lg-4">
                 <h4>Note</h4>
-                <p>Questo porofolio è stato realizzato con HTML/CSS anche con un po' di PHP e di JavScript. C'è anche
-                    una parte di bootstrap come base per il CSS. .</p>
+                <p>Questo porofolio è stato realizzato con HTML/CSS anche con un po' di PHP e di JavScript. C'è anche una parte di bootstrap come base per il CSS. .</p>
                 <hr style="border: 1px solid white">
                 <ul class=>
-                    <li>Link di questo progetto fatto con :<a
-                                href="https://codeload.github.com/Amar1921/upgraded-octo-train/zip/master"> React</a>
-                    </li>
-                    <li>Link di questo progetto fatto con :<a
-                                href="https://codeload.github.com/Amar1921/portofolio_php/zip/master"> PHP</a></li>
+                    <li>Link di questo progetto fatto con :<a href="https://codeload.github.com/Amar1921/upgraded-octo-train/zip/master"> <span class="text-danger">React</span></a></li>
+                    <li>Link di questo progetto fatto con :<a href="https://codeload.github.com/Amar1921/portofolio_php/zip/master"><span class="text-danger">PHP</span></a></li>
                 </ul>
             </div><!-- /col-lg-4 -->
         </div>
