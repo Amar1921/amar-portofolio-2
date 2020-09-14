@@ -106,7 +106,7 @@ if (isset($_GET)) {
                 <hr style="border: 1px solid white">
                 <ul class=>
                     <li>Link di questo progetto fatto con :<a href="https://codeload.github.com/Amar1921/upgraded-octo-train/zip/master"> <span class="text-danger">React</span></a></li>
-                    <li>Link di questo progetto fatto con :<a href="https://codeload.github.com/Amar1921/portofolio_php/zip/master"><span class="text-danger">PHP</span></a></li>
+                    <li>Link di questo progetto fatto con :<a href="https://codeload.github.com/Amar1921/portofolio-php/zip/master"><span class="text-danger">PHP</span></a></li>
                 </ul>
             </div><!-- /col-lg-4 -->
         </div>
