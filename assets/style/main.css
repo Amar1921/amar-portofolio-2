@@ -1,12 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 
 
-body {
-    height: 100%;
-    background-color: #fcf8e3;
-    font-family: 'Lobster', 'Montserrat', sans-serif;
-}
-
 body, html {
     height: 100%;
     background-color: #fcf8e3;
@@ -44,14 +38,14 @@ article > a {
 
 @-webkit-keyframes anim-shadow {
     to {
-        box-shadow: 0px 0px 80px 30px;
+        box-shadow: 0 0 80px 30px;
         opacity: 0;
     }
 }
 
 @keyframes anim-shadow {
     to {
-        box-shadow: 0px 0px 80px 30px;
+        box-shadow: 0 0 80px 30px;
         opacity: 0;
     }
 }
@@ -126,6 +120,7 @@ textarea:-ms-input-placeholder {
 .image {
     width: 250px;
     height: 250px;
+    transition: all 0.4s;
     border-bottom: solid;
 }
 
@@ -213,7 +208,7 @@ a {
     font-size: 24px;
     line-height: 1.7;
     color: #666666;
-    margin: 0px;
+    margin: 0;
     transition: all 0.4s;
     -webkit-transition: all 0.4s;
     -o-transition: all 0.4s;
@@ -230,7 +225,7 @@ a:hover {
 
 
 ul, li {
-    margin: 0px;
+    margin: 0;
     list-style-type: none;
     /*color: white;*/
 }
@@ -342,7 +337,7 @@ iframe {
 .wrap-contact100 {
     width: 550px;
     background: transparent;
-    padding: 50px 0px 160px 0px;
+    padding: 50px 0 160px 0;
 }
 
 
@@ -382,7 +377,7 @@ iframe {
     width: 100%;
     background: #fff;
     border-radius: 31px;
-    font-family: Ubuntu-Bold;
+    font-family: Ubuntu-Bold sans-serif;
     font-size: 18px;
     color: #8f8fa1;
     line-height: 1.2;
@@ -527,7 +522,7 @@ textarea.input100 {
     right: 10px;
     pointer-events: none;
 
-    font-family: Ubuntu-Bold;
+    font-family: Ubuntu-Bold sans-serif;
     color: #c80000;
     font-size: 13px;
     line-height: 1.4;
@@ -544,7 +539,7 @@ textarea.input100 {
 
 .alert-validate::after {
     content: "\f06a";
-    font-family: FontAwesome;
+    font-family: FontAwesome sans-serif;
     display: block;
     position: absolute;
     z-index: 1100;

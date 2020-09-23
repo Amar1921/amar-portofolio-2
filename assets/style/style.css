@@ -78,4 +78,9 @@ Define the keyframe and changes
     -webkit-box-shadow: 4px 4px 5px 8px rgba(0, 0, 0, 0.31);
     -moz-box-shadow: 4px 4px 5px 8px rgba(0, 0, 0, 0.31);
     box-shadow: 4px 4px 5px 8px rgba(0, 0, 0, 0.31);
+    transition: all 0.4s;
+}
+.img:hover{
+    -webkit-box-shadow: 3px 5px 15px 25px rgba(255,254,197,0.76);
+    box-shadow: 3px 5px 15px 25px rgba(255,254,197,0.76);
 }
