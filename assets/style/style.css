@@ -82,6 +82,6 @@ Define the keyframe and changes
 }
 .img:hover{
     -webkit-box-shadow: 3px 5px 15px 25px rgba(255,254,197,0.76);
-    box-shadow: 3px 5px 15px 25px rgba(255,254,197,0.76);
-    transform: translateY(-5px);
+    box-shadow: 3px 5px 15px 25px rgba(2515,254,197,0.76);
+    transform: translateX(-5px);
 }
